@@ -2,8 +2,6 @@
 
 A full-stack trip planning app for truck drivers that generates HOS-compliant routes and FMCSA daily log sheets.
 
-**Live:** https://eld.mayank06711.xyz
-
 ![Landing Page](docs/landingpage_desktop.png)
 
 ## What it does
