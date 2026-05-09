@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/*
+ * Color palette: Trucking/logistics industry standard
+ * Inspired by Samsara, Motive, fleet management UIs
+ * Dark slate base + warm orange accent (road-sign vibes)
+ */
+@theme {
+  /* Core UI */
+  --color-primary: #1E293B;
+  --color-primary-light: #334155;
+  --color-primary-dark: #0F172A;
+
+  --color-accent: #EA580C;
+  --color-accent-light: #F97316;
+  --color-accent-dark: #C2410C;
+
+  --color-secondary: #64748B;
+  --color-secondary-light: #94A3B8;
+
+  --color-background: #FAFAF9;
+  --color-surface: #F5F5F4;
+  --color-card: #FFFFFF;
+  --color-border: #E7E5E4;
+
+  --color-text-primary: #1C1917;
+  --color-text-secondary: #57534E;
+  --color-text-muted: #A8A29E;
+
+  /* Semantic */
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --color-info: #0284C7;
+
+  /* Map marker colors (colorblind-friendly) */
+  --color-marker-start: #16A34A;
+  --color-marker-pickup: #2563EB;
+  --color-marker-dropoff: #DC2626;
+  --color-marker-fuel: #D97706;
+  --color-marker-rest: #7C2D12;
+  --color-marker-break: #0891B2;
+
+  /* Log grid */
+  --color-grid-line: #D6D3D1;
+  --color-grid-major: #A8A29E;
+  --color-grid-midnight: #78716C;
+  --color-duty-line: #1C1917;
+  --color-grid-bg: #FFFFFF;
+  --color-grid-header: #F5F5F4;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
