@@ -67,3 +67,8 @@ body {
 #root {
   min-height: 100vh;
 }
+
+/* Keep Leaflet controls below our sticky header */
+.leaflet-top {
+  z-index: 500 !important;
+}
